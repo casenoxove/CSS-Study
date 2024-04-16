@@ -1,0 +1,53 @@
+h1 {background-color: rgb(155, 155, 155);}
+.test_box {background-color: rgb(238, 238, 238);}
+.test_box h1 {background-color: rgb(255, 194, 217);}
+.test_box h2 {background-color: rgb(255, 223, 175);}
+.test_box h3 {background-color: rgb(253, 255, 149);}
+.test_box h4 {background-color: rgb(191, 199, 209);}
+.test_box #title1 {background-color: rgb(194, 214, 240);}
+.test_box #title2 {background-color: rgb(193, 255, 255);}
+.test_box p {background-color: rgb(223, 253, 220);}
+.test_box blockquote {background-color: rgb(255, 255, 255);}
+.test_box .test1 {background-color: rgb(142, 143, 255);}
+.test_box .test2 {background-color: rgb(175, 176, 255);}
+.test_box .test3 {background-color: rgb(211, 202, 255);}
+.test_box .test4 {background-color: rgb(230, 229, 255);}
+.test_box #wrap {background-color: rgb(255, 172, 244);}
+.test_box #wrap p {background-color: rgb(255, 203, 251);}
+/* 0번째 끝 */
+header {background-color:rgb(255, 183, 183);}
+header h1 {background-color:rgb(255, 204, 174);}
+header form {background-color:rgb(255, 255, 181);}
+header form input {background-color:rgb(221, 255, 220);}
+header a {background-color:rgb(213, 213, 255);}
+/* 1번째 끝 */
+.box {background-color: rgb(255, 211, 211);}
+.box a {background-color: rgb(255, 218, 203);}
+.contents {background-color: rgb(235, 255, 231);}
+.contents p {background-color: rgb(222, 232, 255);}
+.img {background-color: rgb(224, 220, 255);}
+/* 2번째 끝 */
+main {background-color: rgb(233, 233, 233);}
+main aside {background-color: rgb(255, 180, 180);}
+main aside h2 {background-color: rgb(255, 227, 209);}
+main aside ul {background-color: rgb(255, 252, 230);}
+main aside ul li {background-color: rgb(231, 255, 189);}
+main aside ul .last {background-color: rgb(224, 255, 246);}
+main section {background-color: rgb(219, 241, 255);}
+main section .top {background-color: rgb(203, 212, 255);}
+main section .top h1 {background-color: rgb(184, 189, 255);}
+main section .top p {background-color: rgb(225, 209, 247);}
+main section article {background-color: rgb(255, 172, 218);}
+main section article p {background-color: rgb(255, 172, 218);}
+/* 3번째 끝 */
+#t {background-color: rgb(228, 228, 228);}
+#t thead {background-color: rgb(221, 221, 221);}
+#t thead tr {background-color: rgb(218, 218, 218);}
+#t thead tr th {background-color: rgb(208, 195, 255);}
+#t tbody {background-color: rgb(209, 209, 209);}
+#t tbody tr {background-color: rgb(204, 204, 204);}
+#t tbody tr td {background-color: rgb(184, 158, 255);}
+#t tfoot {background-color: rgb(212, 212, 212);}
+#t tfoot tr {background-color: rgb(218, 218, 218);}
+#t tfoot tr th {background-color: rgb(143, 145, 243);}
+#t tfoot tr td {background-color: rgb(211, 199, 255);}
