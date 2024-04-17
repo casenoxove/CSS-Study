@@ -1,0 +1,103 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+}
+main .top {}
+main .top h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+main .top p {
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+/* 경영이념 끝 */
+main .middle {
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+main .middle p {
+    padding-top: 30px;
+    line-height: 30px;
+}
+/* 소개 끝 */
+main .middle_info {}
+main .middle_info .info_one {}
+main .middle_info .info_one h2 {
+    color:#36B4E5;
+    font-size: 1.875rem;
+    padding-top: 80px;
+}
+main .middle_info .info_one p {
+    font-size: 2.188rem;
+    padding-top: 30px;
+    line-height: 45px;
+}
+/* VISION 2025 끝 */
+main .middle_info .info_two {}
+main .middle_info .info_two h2 {
+    color:#36B4E5;
+    font-size: 1.875rem;
+    padding-top: 80px;
+}
+main .middle_info .info_two p {
+    font-size: 2.188rem;
+    padding-top: 30px;
+    line-height: 45px;
+}
+/* VISION 끝 */
+main .middle_info .info_three {}
+main .middle_info .info_three h2 {
+    color:#36B4E5;
+    font-size: 1.875rem;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+/* GOAL H2 */
+main .middle_info .info_three div {
+    display: inline-block;
+}
+main .middle_info .info_three .left {
+    background-color: #36B4E5;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .middle_info .info_three .left .icon {}
+main .middle_info .info_three .left .icon img {
+    width: 60px; height: 60px;
+}
+main .middle_info .info_three .left p {
+    color: #fff;
+    font-size: 1.563rem;
+}
+/* 매출 끝 */
+main .middle_info .info_three .center {
+    background-color: #fff;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .middle_info .info_three .center .icon {}
+main .middle_info .info_three .center .icon img {
+    width: 60px; height: 60px;
+}
+main .middle_info .info_three .center p {
+    font-size: 1.563rem;
+}
+/* 영업이익 끝 */
+main .middle_info .info_three .right {
+    background-color: #F3C300;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .middle_info .info_three .right .icon {}
+main .middle_info .info_three .right .icon img {
+    width: 60px; height: 60px;
+}
+main .middle_info .info_three .right p {
+    color: #fff;
+    font-size: 1.563rem;
+}

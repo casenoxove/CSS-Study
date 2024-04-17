@@ -23,3 +23,73 @@ main .high p,
 main .middle h2 {
     letter-spacing: -0.2px;
 }
+/* goal */
+main .contents_bg {}
+main .contents_bg .goal {}
+main .contents_bg .goal h2 {
+    padding-top: 50px; padding-bottom: 30px;
+    font-size: 1.875rem;
+    color:#36B4E5;
+}
+main .contents_bg .goal .goal_contents {
+    padding-bottom: 30px;
+/*     text-align: right; */
+}
+main .contents_bg .goal .goal_contents li {
+    display: inline-block;
+    align-content: center;
+}
+main .contents_bg .goal .goal_contents .one {
+    background-color: #36B4E5;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    /* figma drop-shadow == css box-shadow */
+    /* box shadow: x축 y축 blur값 색상; */
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .contents_bg .goal .goal_contents .one .icon {
+    padding-bottom: 20px;
+}
+main .contents_bg .goal .goal_contents .one .icon img {
+    width: 60px; height: 60px;
+}
+main .contents_bg .goal .goal_contents .one h3 {
+}
+main .contents_bg .goal .goal_contents .two {
+    background-color: #ffffff;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    margin-left: -26px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .contents_bg .goal .goal_contents .two .icon {
+    padding-bottom: 20px;
+}
+main .contents_bg .goal .goal_contents .two .icon img {
+    width: 60px; height: 60px;
+}
+main .contents_bg .goal .goal_contents .two h3 {
+    font-size: 1.5rem;
+    letter-spacing:-0.2;
+}
+main .contents_bg .goal .goal_contents .three {
+    background-color: #F3C300;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    margin-left: -26px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .contents_bg .goal .goal_contents .three .icon {
+    padding-bottom: 20px;
+}
+main .contents_bg .goal .goal_contents .three .icon img {
+    width: 60px; height: 60px;
+}
+main .contents_bg .goal .goal_contents .three h3 {
+}
+/* 공통 */
+main .contents_bg .goal .goal_contents .one h3,
+main .contents_bg .goal .goal_contents .three h3 {
+    font-size: 1.5rem; color:#ffffff;
+    letter-spacing:-0.2;
+}
