@@ -1,95 +1,100 @@
 main {
     font-family: "Noto Sans KR", sans-serif;
-    text-align:center;
+    text-align: center;
 }
-main .top {}
-main .top h1 {padding-bottom:14px; font-size: 3.125rem; font-weight: 700;}
-main .top p {padding-bottom:40px; font-weight: 300;}
-main .high {padding-top:40px; background-color: #f5f5f5;}
-main .high p {padding-bottom:30px; line-height: 30px;}
-main .middle {}
-main .middle h2 {
-    padding-top: 50px; padding-bottom: 30px;
-    font-size: 1.875rem;
+/* 시작 */
+/* 시작 */
+/* 시작 */
+main .top h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+main .top p {
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+main .top h2,
+main .top p {letter-spacing: -0.2px;}
+/* 경영이념 끝 */
+/* 경영이념 끝 */
+/* 경영이념 끝 */
+main .middle {
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+main .middle > p {
+    line-height: 30px;
+    padding-bottom: 30px;
+    letter-spacing: -0.2px;
+}
+/* 소개 끝 */
+/* 소개 끝 */
+/* 소개 끝 */
+main .middle_info .info h2 {
     color:#36B4E5;
+    font-size: 1.875rem;
+    letter-spacing: -0.2px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
-main .middle p {
+main .middle_info .info p {
     font-size: 2.188rem;
     line-height: 45px;
 }
-/* 공통 */
-main .top p,
-main .high p,
-main .middle h2 {
+main .middle_info .info_three h2 {padding-bottom: 30px;}
+/* 파란색 흰색 노란색 시작 */
+/* 파란색 흰색 노란색 시작 */
+/* 파란색 흰색 노란색 시작 */
+main .middle_info .info_three div {
+    display: inline-block;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25);
+}
+main .middle_info .info_three .icon {padding-top: 67px;}
+main .middle_info .info_three div img {width: 60px; height: 60px;}
+main .middle_info .info_three .left {background-color: #36B4E5;}
+main .middle_info .info_three .left p,
+main .middle_info .info_three .right p {
+    color: #fff;
+    font-size: 1.563rem;
+    padding-bottom: 20px;
     letter-spacing: -0.2px;
 }
-/* goal */
-main .contents_bg {}
-main .contents_bg .goal {}
-main .contents_bg .goal h2 {
-    padding-top: 50px; padding-bottom: 30px;
-    font-size: 1.875rem;
+main .middle_info .info_three .center {background-color: #fff;}
+main .middle_info .info_three .center p {
+    font-size: 1.563rem;
+    padding-bottom: 20px;
+    letter-spacing: -0.2px;
+}
+main .middle_info .info_three .right {background-color: #F3C300;}
+/* 회색 상자 시작 */
+/* 회색 상자 시작 */
+/* 회색 상자 시작 */
+main .end h2 { /* STRATEGY */
     color:#36B4E5;
-}
-main .contents_bg .goal .goal_contents {
+    font-size: 1.875rem;
+    letter-spacing: -0.2px;
+    padding-top: 80px;
     padding-bottom: 30px;
-/*     text-align: right; */
 }
-main .contents_bg .goal .goal_contents li {
+main .end .circle li { /* 회색 동그라미 */
     display: inline-block;
-    align-content: center;
+    width: 196px; height: 196px;
+    background-color: #EEE;
+    border-radius: 98px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25);
+    overflow: hidden;
 }
-main .contents_bg .goal .goal_contents .one {
-    background-color: #36B4E5;
-    width: 250px; height: 250px;
-    border-radius: 125px;
-    /* figma drop-shadow == css box-shadow */
-    /* box shadow: x축 y축 blur값 색상; */
-    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+main .end .circle li h4 { /* 굵은 글씨 */
+    text-decoration-line: underline;
+    font-weight: 700;
+    padding-top: 54px;
 }
-main .contents_bg .goal .goal_contents .one .icon {
-    padding-bottom: 20px;
-}
-main .contents_bg .goal .goal_contents .one .icon img {
-    width: 60px; height: 60px;
-}
-main .contents_bg .goal .goal_contents .one h3 {
-}
-main .contents_bg .goal .goal_contents .two {
-    background-color: #ffffff;
-    width: 250px; height: 250px;
-    border-radius: 125px;
-    margin-left: -26px;
-    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
-}
-main .contents_bg .goal .goal_contents .two .icon {
-    padding-bottom: 20px;
-}
-main .contents_bg .goal .goal_contents .two .icon img {
-    width: 60px; height: 60px;
-}
-main .contents_bg .goal .goal_contents .two h3 {
-    font-size: 1.5rem;
-    letter-spacing:-0.2;
-}
-main .contents_bg .goal .goal_contents .three {
-    background-color: #F3C300;
-    width: 250px; height: 250px;
-    border-radius: 125px;
-    margin-left: -26px;
-    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
-}
-main .contents_bg .goal .goal_contents .three .icon {
-    padding-bottom: 20px;
-}
-main .contents_bg .goal .goal_contents .three .icon img {
-    width: 60px; height: 60px;
-}
-main .contents_bg .goal .goal_contents .three h3 {
-}
-/* 공통 */
-main .contents_bg .goal .goal_contents .one h3,
-main .contents_bg .goal .goal_contents .three h3 {
-    font-size: 1.5rem; color:#ffffff;
-    letter-spacing:-0.2;
+main .end .circle li p { /* 부가 설명 */
+    padding-top: 20px;
+    padding-bottom: 53px;
+    letter-spacing: -0.2px;
+    font-weight: 300;
 }
