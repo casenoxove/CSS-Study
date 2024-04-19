@@ -1,0 +1,57 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    margin-left: 51px;
+}
+/* 시작 */
+main .first {letter-spacing: -0.4px;}
+main .first h2 {
+    margin-top: 61px;
+    font-size: 3.125rem;}
+main .first p {
+    font-size: 1.5rem;
+    margin-top: 48px;
+}
+main .first p span {
+    color: #03c75a;
+    font-weight: 700;
+}
+main .info {
+    margin-top: 36px;
+}
+main .info table {
+    width: 769px;
+    border: solid 3px #000;
+    border-left: 0; border-right: 0;
+}
+main .info table tbody {width: 769px;}
+main .info table tbody tr {
+    font-size: 1.125rem;
+    border:1px solid #ddd;
+    border-left:0; border-right:0;
+}
+main .info table tbody tr th {
+    background-color: #f5f5f5;
+    width: 167px;
+}
+main .info table tbody tr th,
+main .info table tbody tr td {
+    padding-top: 21px;
+    padding-left: 14px;
+    padding-bottom: 19px;
+}
+main .info table tbody tr:nth-child(3) td {font-weight: 700;}
+main .info table tbody tr:nth-child(4) td {font-weight: 700;}
+main .info table tbody tr:nth-child(5) td {font-weight: 700;}
+main .info table tbody tr td {}
+main .info p {margin-top: 5px; font-size: 1.25rem;}
+main .info a {text-decoration: underline 1px;}
+main .button {
+    margin-top: 92px;
+    text-align: center;
+}
+main .button a {
+    padding: 20px 40px;
+    font-size: 1.25rem;
+    background-color: #03c75a; color: #fff;
+    border-radius: 30px;
+}

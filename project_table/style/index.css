@@ -20,7 +20,7 @@ main #text .user {padding-bottom: 48px;}
 main #text .user em {color: #03c75a;}
 main #text .user, main #text .user em {font-size: 1.5rem;} 
 main #text > p {padding-bottom: 50px; line-height: 34px;}
-main #text > p a {text-decoration-line: underline;}
+main #text > p a {text-decoration: underline 1px;}
 main #text > p, main #text > p a {font-size: 1.25rem;}
 /* TEXT 끝 */
 main #buy {}
@@ -47,15 +47,32 @@ main #buy .buy_table tbody {
     border:1px solid #aaa;
     border-left:0; border-right:0;
 }
+/* a 태그는 inline과 block 특징을 모두 가질 수 있지만
+    고유한 기본 속성은 inline이기 때문에 표시속성 display 명령으로
+    block으로 변경하지 않는한 크기, 여백을 제대로 인식하지 못한다. */
 main #buy .buy_table tbody tr {}
 main #buy .buy_table tbody tr td {}
 main #buy .buy_table tbody tr td em {color: #03c75a;}
 main #buy p {padding-top: 11px;}
-main #buy p a {font-size: 1.25rem;}
+main #buy p a {
+    font-size: 1.25rem;
+    text-decoration: underline 1px;
+    display: inline-block;
+    width: 930px; text-align: right;
+}
 main .button {
     padding-top: 165px;
+    width: 930px;
+    text-align: center;
 }
 main .button a {
-    background-color: #03c75a;
-    padding: 20px 40px;
+    background-color: #03c75a; color: #fff;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    width: 178px;
+    display: inline-block;
+    line-height: 64px;
+    /* line-height는 글자가 한 줄 일 때 높이가 정해진 레이아웃에서
+    수직 중앙으로 배치하고자 하는 경우 px단위를 사용해서 적용한다. 
+    위아래로 여백을 주기 때문에 height 값을 작성해도 됨 */
 }
