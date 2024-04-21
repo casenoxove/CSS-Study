@@ -1,0 +1,53 @@
+main {
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+}
+main h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: rgb(167, 187, 112);
+    margin: 50px;
+}
+main .time {}
+main .time table {
+    display: inline-block;
+}
+main .time table thead {}
+main .time table thead tr {}
+main .time table thead tr th {
+    background-color: rgb(167, 187, 112); color: #fff;
+    padding: 15px 50px;
+    border-left: solid 2px #ddd;
+}
+main .time table thead tr th:nth-child(2),
+main .time table thead tr th:nth-child(3) {
+    padding: 15px 80px;
+}
+main .time table tbody {}
+main .time table tbody tr {}
+main .time table tbody tr th {
+    border-right: solid 2px #ddd;
+    font-weight: 700;
+    padding: 15px
+}
+main .time table tbody tr td {
+    padding: 15px;
+}
+main .time table tbody tr td em {
+    font-size: 1.25rem;
+    color: rgb(167, 187, 112);
+    font-weight: 600;
+}
+main .time table tbody .one {
+    border-right: solid 2px #ddd;
+}
+main .time table tbody tr th:nth-child(1) {
+    border-bottom: solid 2px #ddd;
+}
+main .time table tbody tr:nth-child(5) {
+    border-bottom: solid 2px #ddd;
+}
+main .time table tbody tr:nth-child(2),
+main .time table tbody tr:nth-child(4) {
+    border-bottom: solid 2px #ddd;
+}

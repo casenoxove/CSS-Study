@@ -1,0 +1,59 @@
+main {
+    font-family: "Nanum Gothic", sans-serif;
+    padding: 46px 49px;
+}
+main h1 {letter-spacing: -0.4px;}
+main h1 em {color: #03C75A;}
+main h1, main h1 em {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 48px;
+    line-height: 60px;
+}
+main .first {letter-spacing: -0.4px;}
+main .first .first_green {padding-bottom: 48px;}
+main .first .first_green em {color: #03C75A;}
+main .first .first_green, main .first .first_green em {font-size: 1.5rem;}
+main .first > p {
+    line-height: 34px;
+    padding-bottom: 50px;
+}
+main .first > p a {text-decoration:underline 1px;}
+main .first > p, main .first > p a {font-size: 1.25rem;}
+main .two h2 {padding-bottom: 22px; font-size:1.5rem;}
+main .two h2 span {font-size: 1.25rem;}
+/* 테이블 시작 */
+main .two table {
+    border-top: solid;
+    width: 937px;
+}
+main .two table tr {
+    border: solid 1px #aaa;
+    border-left: 0px; border-right: 0px;
+}
+main .two table thead tr {
+    background-color: #f5f5f5;
+}
+main .two tr * {
+    padding: 15px 15px;
+}
+main .two table .center {text-align: center;}
+main .two table .center em {color: #03C75A;}
+main .two p {
+    padding-top: 11px;
+    padding-left: 755px;
+    text-decoration: underline;}
+main .two p a {font-size: 1.25rem;}
+/* 초록 버튼 시작 */
+main .three {
+    padding-top: 165px;
+    padding-left: 326px;
+}
+main .three a {
+    background-color:#03C75A;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+main .three a span {font-size: 1.25rem;}

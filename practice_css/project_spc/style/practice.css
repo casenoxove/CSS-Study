@@ -1,0 +1,99 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+}
+/* 시작 */
+/* 시작 */
+/* 시작 */
+main .top h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+main .top p {
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+main .top h2,
+main .top p {letter-spacing: -0.2px;}
+/* 경영이념 끝 */
+/* 경영이념 끝 */
+/* 경영이념 끝 */
+main .middle {
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+main .middle > p {
+    line-height: 30px;
+    padding-bottom: 30px;
+    letter-spacing: -0.2px;
+}
+/* 소개 끝 */
+/* 소개 끝 */
+/* 소개 끝 */
+main .middle_info .info h2 {
+    color:#36B4E5;
+    font-size: 1.875rem;
+    letter-spacing: -0.2px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+main .middle_info .info p {
+    font-size: 2.188rem;
+    line-height: 45px;
+}
+main .middle_info .info_three h2 {padding-bottom: 30px;}
+/* 파란색 흰색 노란색 시작 */
+/* 파란색 흰색 노란색 시작 */
+/* 파란색 흰색 노란색 시작 */
+main .middle_info .info_three div {
+    display: inline-block;
+    width: 250px; height: 250px;
+    border-radius: 125px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .middle_info .info_three .icon {padding-top: 67px;}
+main .middle_info .info_three div img {width: 60px; height: 60px;}
+main .middle_info .info_three .left {background-color: #36B4E5;}
+main .middle_info .info_three .left p,
+main .middle_info .info_three .right p {
+    color: #fff;
+    font-size: 1.563rem;
+    padding-bottom: 20px;
+    letter-spacing: -0.2px;
+}
+main .middle_info .info_three .center {background-color: #fff;}
+main .middle_info .info_three .center p {
+    font-size: 1.563rem;
+    padding-bottom: 20px;
+    letter-spacing: -0.2px;
+}
+main .middle_info .info_three .right {background-color: #F3C300;}
+/* 회색 상자 시작 */
+/* 회색 상자 시작 */
+/* 회색 상자 시작 */
+main .end h2 { /* STRATEGY */
+    color:#36B4E5;
+    font-size: 1.875rem;
+    letter-spacing: -0.2px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+main .end .circle li { /* 회색 동그라미 */
+    display: inline-block;
+    width: 196px; height: 196px;
+    background-color: #EEE;
+    border-radius: 98px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.25)
+}
+main .end .circle li h4 { /* 굵은 글씨 */
+    text-decoration-line: underline;
+    font-weight: 700;
+    padding-top: 54px;
+}
+main .end .circle li p { /* 부가 설명 */
+    padding-top: 20px;
+    padding-bottom: 53px;
+    letter-spacing: -0.2px;
+    font-weight: 300;
+}

@@ -1,0 +1,60 @@
+main {
+    font-family: "Nanum Gothic", sans-serif;
+    margin-top: 61px; margin-left: 51px;
+}
+/* 기본세팅 */
+main .first {
+    letter-spacing: -0.4px;
+}
+main .first h1 {
+    font-size: 3.125rem;
+    line-height: 60px;
+    margin-bottom: 48px;
+}
+main .first p {
+    margin-bottom: 36px;
+}
+main .first p em {color: #03C75A;}
+/* 제목란 끝 */
+main .info {}
+main .info table {
+    width: 769px;
+    border: solid 3px #000;
+    border-left: 0; border-right: 0;
+}
+main .info table tbody {}
+main .info table tbody tr {
+    border-bottom: solid 1px #ddd;
+    font-size: 1.25rem;
+}
+main .info table tbody tr th {
+    width: 167px;
+    background-color: #f5f5f5;
+}
+main .info table tbody tr th,
+main .info table tbody tr td {
+    padding-top: 21px;
+    padding-left: 14px;
+    padding-bottom: 19px;
+}
+main .info table tbody tr:nth-child(3) td {font-weight: 700;}
+main .info table tbody tr:nth-child(4) td {font-weight: 700;}
+main .info table tbody tr:nth-child(5) td {font-weight: 700;}
+main h2 {
+    margin-top: 5px;
+}
+main h2 a {
+    text-decoration: underline 1px;
+}
+main .button {
+    text-align: center;
+    margin-top: 92px;
+}
+main .button a {
+    padding: 20px 40px;
+    background-color: #03C75A; color: #fff;
+    border-radius: 30px;
+}
+main .button a em {
+    font-weight: 700px;
+}
