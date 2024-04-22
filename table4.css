@@ -1,42 +1,53 @@
 main {
     text-align: center;
-    letter-spacing: -0.2px;
+    font-family: "Nanum Gothic", sans-serif;
 }
 main h1 {
-    margin-top: 50px; margin-bottom: 30px;
-    font-size: 1.5rem;
-    line-height: 30px;
-}
-main h2 {
-    margin-bottom: 30px;
+    font-size: 3.125rem;
     font-weight: 700;
+    color: rgb(167, 187, 112);
+    margin: 50px;
 }
-main .info {
+main .time {}
+main .time table {
     display: inline-block;
 }
-main .info table thead {
-    background-color: navy; color: #fff;
+main .time table thead {}
+main .time table thead tr {}
+main .time table thead tr th {
+    background-color: rgb(167, 187, 112); color: #fff;
+    padding: 15px 50px;
+    border-left: solid 2px #ddd;
 }
-main .info table thead tr {}
-main .info table thead tr th {
-    text-align: center;
-    padding: 10px 0;
+main .time table thead tr th:nth-child(2),
+main .time table thead tr th:nth-child(3) {
+    padding: 15px 80px;
 }
-main tr th, main tr td {
-    border: solid 1px #ddd;
-}
-/* 테이블 간격 */
-main .info table tbody tr th {
+main .time table tbody {}
+main .time table tbody tr {}
+main .time table tbody tr th {
+    border-right: solid 2px #ddd;
     font-weight: 700;
-    padding:30px 30px;}
-main .info table tbody tr #early {
-    padding: 15px 20px;
-    font-weight: 700;
+    padding: 15px
 }
-main .info table tbody tr .eleva {
-    padding: 0 50px;
-    font-weight: 300;
+main .time table tbody tr td {
+    padding: 15px;
 }
-main .info table tbody tr td:nth-child(1) {padding: 10px;}
-main .info table tbody tr td:nth-child(4) {padding: 0 30px;}
-/* 테이블 간격 */
+main .time table tbody tr td em {
+    font-size: 1.25rem;
+    color: rgb(167, 187, 112);
+    font-weight: 600;
+}
+main .time table tbody .one {
+    border-right: solid 2px #ddd;
+}
+main .time table tbody tr th:nth-child(1) {
+    border-bottom: solid 2px #ddd;
+}
+main .time table tbody tr:nth-child(5) {
+    border-bottom: solid 2px #ddd;
+}
+main .time table tbody tr:nth-child(2),
+main .time table tbody tr:nth-child(4) {
+    border-bottom: solid 2px #ddd;
+}
