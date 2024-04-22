@@ -1,0 +1,51 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    width: 500px; height: 800px; margin: 0 auto;
+    letter-spacing: -0.2px;
+}
+main .top {}
+main .top h1 {
+    font-size: 4.375rem;
+    font-weight: 700;
+    margin-top: 84px; margin-bottom: 24px;
+    line-height: 101px;
+}
+main .top p {
+    margin-bottom: 57px;
+    font-size: 1.25rem;
+}
+main .middle {}
+main .middle form {}
+main .middle form fieldset {}
+main .middle form fieldset dl {}
+main .middle form fieldset dl dt {
+    margin-bottom: 18px;
+}
+main .middle form fieldset dl dt:nth-child(3) {margin-top: 38px;}
+main .middle form fieldset dl dd {}
+main .middle form fieldset dl dd input {
+    width: 500px; height: 53px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: solid 1px #aaa;
+}
+main .middle form fieldset dl dd ::placeholder {color: #aaa;}
+main h2 {margin-top: 38px; margin-bottom: 32px;}
+main .middle form fieldset dl dt,
+main h2 {font-weight: 700; font-size: 1.875rem;}
+main .last {}
+main .last button {
+    width: 500px; height: 53px; margin-top: 18px;
+    border-radius: 10px;
+    border: solid 1px #aaa;
+    font-weight: 700;
+}
+main .last button:nth-child(1) {background-color: black; color: #fff;}
+main .last #user_login_google {background-color: #fff;}
+main > p {
+    text-align: center;
+    margin-top: 62px;
+}
+main p span {
+    font-weight: 700;
+}
