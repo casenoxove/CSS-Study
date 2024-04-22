@@ -1,0 +1,68 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.2px;
+    width:500px;
+    margin: 0 auto;
+    height:800px;
+}
+main .first {}
+main .first h1 {
+    margin-top: 84px;
+    font-weight: 900;
+    font-size: 4.3rem;
+}
+main .first p {
+    margin-top: 25px; margin-bottom: 57px;
+    font-size: 1.5rem;
+}
+main .second {}
+main .second form {}
+main .second form fieldset {}
+main .second form fieldset legend {}
+main .second form fieldset dl {}
+main .second form fieldset dl dt {
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-bottom: 18px;
+}
+main .second form fieldset dl dt:nth-child(3) {margin-top: 38px;}
+main .second form fieldset input[required] {
+    padding-left: 13px;
+    width: 500px; height: 53px;
+    border-radius: 10px;
+    border: solid 1px #aaa
+}
+main .second form fieldset dl dd {}
+main .second form fieldset h2 {
+    margin-top: 38px; margin-bottom: 32px;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+main .second form fieldset .login_button {
+    display: inline-block;
+}
+main .second form fieldset .login_button #user_login {
+    background-color: black; color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    width: 500px; height: 53px;
+    margin-bottom: 18px;
+}
+main .second form fieldset .login_button #user_google {
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    width: 500px; height: 53px;
+}
+main .second form fieldset .login_button #user_login,
+main .second form fieldset .login_button #user_google {
+    font-weight: 700;
+    border: solid 1px #aaa
+}
+main > p {
+    text-align: center;
+    margin-top: 62px;
+}
+main > p a {
+    font-weight: 700;
+}
