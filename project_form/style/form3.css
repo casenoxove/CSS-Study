@@ -1,0 +1,69 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    width: 100vw; height: 100vh;
+    text-align: center;
+    letter-spacing: -0.2px;
+    background-color: #222;
+    display: inline-block;
+}
+main .logo {
+    margin-top: 97px;
+}
+main .logo h1 {}
+main .logo h1 img {}
+main .logo h1 a {
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: #1ED760;
+    padding-left: 9px;
+}
+main .choice {
+    margin-top: 87px;
+}
+main .choice a {
+    font-size: 1.5rem;
+    color: #fff;
+}
+main .choice a:nth-child(1) {
+    margin-right: 68px;
+    border-bottom: solid 3px #1ED760;
+}
+main .choice a:nth-child(2) {margin-left: 68px;}
+main #login_button {}
+main #login_button .login_text {
+    margin-top: 52px;
+}
+main #login_button .login_text h2 {}
+main #login_button .login_text h2:nth-child(1) {
+    margin-bottom: 14px;
+}
+main #login_button .login_text input {
+    width: 500px; height: 73px;
+    padding-left: 40px;
+    border-radius: 36.5px;
+}
+main #login_button .login_text input::placeholder {color: #aaa;}
+main #login_button p {
+    color: #fff;
+    margin: 31px 369px 33px 0;
+}
+main #login_button p input {display: none;}
+main #login_button p input:checked + label {
+    background-image: url(./images/check_box.svg);
+} 
+main #login_button p label {
+    background-image: url(./images/check_box\ \(1\).svg);
+    background-repeat: no-repeat;
+    padding-left: 34px;
+}
+main #login_button button {
+    background-color: #1ED760; color: #fff;
+    width: 500px; height: 73px;
+    border-radius: 36.5px;
+    border: solid 0;
+    margin-bottom: 14px;
+}
+main h4 {}
+main h4 a {
+    color: #fff;
+}

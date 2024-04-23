@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
+</head>
+<body>
+    <main>
+        <div class="top_info">
+            <form action="#" method="post" id="user_info">
+            </form>
+                <fieldset>
+                    <legend class="sign_up"></legend>
+                    <p><textarea name="infomation">
+                        인터넷 쇼핑몰 『 아가새농장 사이버 몰』회원 약관<br>
+                        <br>
+                        <br>
+                        제1조(목적)
+                        이 약관은 아가새농장 회사(전자상거래 사업자)가 운영하는 아가새농장 사이버 몰(이하 "몰"이라 한다)에서<br>
+                        제공하는 인터넷 관련 서비스(이하 "서비스"라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리·의무<br>
+                        및 책임사항을 규정함을 목적으로 합니다.<br>
+                        <br>
+                        * 「PC통신, 무선 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준
+                        용합니다」
+                    </textarea></p>
+                    <div class="user_name_psw">
+                        <dl>
+                            <dt>아이디</dt>
+                            <dd><input type="text" name="user_id" required placeholder="아이디를 입력해주세요"></dd>
+                            <a href="#">중복확인</a>
+                        </dl>
+                        <dl>
+                            <dt>비밀번호</dt>
+                            <dd><input type="password" name="user_psw" required placeholder="비밀번호를 입력해주세요"></dd>
+                        </dl>
+                        <dl>
+                            <dt>비밀번호확인</dt>
+                            <dd><input type="password" name="user_psw_again" required placeholder="비밀번호를 한번 더 입력해주세요"></dd>
+                        </dl>
+                        <dl>
+                            <dt>이름</dt>
+                            <dd><input type="text" name="user_name" required placeholder="이름을 입력해주세요"></dd>
+                        </dl>
+                        <dl>
+                            <dt>이메일</dt>
+                            <dd><input type="email" name="user_email" required placeholder= "예)abc@web.com"></dd>
+                        </dl>
+                        <dl>
+                            <dt>휴대폰</dt>
+                            <dd><input type="number" name="user_psw" required placeholder="숫자만 입력해주세요"></dd>
+                        </dl>
+                        <dl>
+                            <dt>주소</dt>
+                            <dd><a href="#">주소 검색</dd>
+                            <dd>배송지에 따라 상품 정보가 달라질 수 있습니다</dd>
+                        </dl>
+                        <dl>
+                            <dt>성별</dt>
+                            <dd>
+                                <input type="radio" name="user_gender" id="user_male" value="user_gender" required></dd>
+                                <label for="user_gender">남자</label>
+                            <dd>
+                                <input type="radio" name="user_gender" id="user_female" value="user_female" required></dd>
+                                <label for="user_gender">여자</label>
+                            <dd>
+                                <input type="radio" name="user_gender" id="user_none" value="user_none" required></dd>
+                                <label for="user_gender">선택안함</label>
+                        </dl>
+                        <dl>
+                            <dt>생년월일</dt>
+                            <dd class="bold"><input type="number"></dd>
+                            <dd class="bold"><input type="number"></dd>
+                            <dd class="bold"><input type="number"></dd>
+                        </dl>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

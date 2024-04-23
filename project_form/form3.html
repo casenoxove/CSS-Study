@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/form3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <div class="logo">
+            <h1><img src="./style/images/path14.svg" alt=""><a href="#">Spotify</a></h1>
+        </div>
+        <div class="choice">
+            <a href="#">SIGN IN</a>
+            <a href="#">SIGN UP</a>
+        </div>
+        <form action="#" method="post" id="login_button">
+            <fieldset>
+                <legend class="login"></legend>
+                <div class="login_text">
+                    <h2><input type="text" placeholder="Username" required></h2>
+                    <h2><input type="password" placeholder="Password" required></h2>
+                </div>
+                <p>
+                    <input type="checkbox" name="remember" id="stay" value="stay">
+                    <label for="stay">stay signed in</label>
+                </p>
+                <button type="submit" name="sign_in">SIGN IN</button>
+            </fieldset>
+        </form>
+        <h4><a href="#">Forget Password?</a></h4>
+    </main>
 </body>
 </html>
