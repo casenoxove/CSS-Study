@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        #testFrm {}
+        #testFrm .test2 {}
+        #testFrm .test2 .skip {}
+        #testFrm .test2 .skip ul {}
+        #testFrm .test2 .skip ul li {}
+        #testFrm .test2 .skip ul li label[for=user_male] {
+            background-image: url(./images/male.svg);
+        }
+        #testFrm .test2 .skip ul li input {}
+    </style>
+</head>
+<body>
+    <form action="#" method="get" id="testFrm">
+        <fieldset class="test1">
+            <legend class="skip"></legend>
+            <ul>
+                <li><input type="text" name="UserName" value="1" readonly></li>
+                <!-- readonly : 읽기 전용 -->
+                <li><input type="text" name="userPhone" value="010" disabled></li>
+                <!-- disabled : 비활성화 -->
+                <li><input type="search" name="userSearch" autofocus autocomplete="on"></li>
+                <!-- autofocus : 새로고침 하면 검색창에 자동으로 마우스 커서 활성화 -->
+                <!-- autocomplete : 검색창 자동완성 (아이디 등에 사용 가능) -->
+            </ul>
+        </fieldset>
+        <fieldset class="test2">
+            <legend class="skip">양식2</legend>
+            <ul>
+                <li><textarea name="userReview" placeholder="리뷰는 100자 이상 작성해주세요." rows="5" cols="100"></textarea></li>
+                <!-- textarea : 쇼핑몰 리뷰란 같은 곳, 글자 쓰면 스크롤 내려가는 형식 -->
+                <!-- cols, rows : 가로 세로 사이즈 조절 -->
+                <li><textarea name="siteLaw" rows="5" cols="50" readonly placeholder="사이트 가입 약관 2024년 4월 23일"></textarea></li>
+                <li><input type="radio" name="userMailAgree" value="userMailAgreeY">동의</li>
+                <li><input type="radio" name="userMailAgree" value="userMailAgreeN">비동의</li>
+                <!-- 둘 중 하나만 선택되게 하려면 name을 같게 해야함 -->
+                <li>
+                    <label>
+                        <input type="radio" name="userMailAgree" value="agree"> 동의
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" id="agree" name="userMailAgree" value="agree">
+                    <label for="agree">비동의</label>
+                    <!-- id와 for에 value 값을 넣어야 활성화 됨 -->
+                </li>
+                <li>
+                    <label for="user_male">
+                        <input type="radio" name="male_female" id="user_male" value="user_male">남성
+                    </label>
+                </li>
+                <li>
+                    <label for="user_female">
+                        <input type="radio" name="male_female" id="user_female" value="user_female">여성
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+    <!-- id, class 이름, 선언법 -->
+    <!-- 
+        1. 공백 위치에 언더바 사용법
+        ex: test.frm, button,right
+        2. 공백 대신 두번째 단어의 앞글자를 대문자로 처리 Carmel 표시법
+        
+    -->
+</body>
+</html>

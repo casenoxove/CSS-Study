@@ -1,0 +1,79 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #222;
+    display: inline-block;
+    width: 100vw; height: 100vh;
+    text-align: center;
+    letter-spacing: -0.2px;
+}
+main .logo {}
+main .logo h1 {
+    margin-top: 94px;
+    margin-bottom: 87px;
+}
+main .logo h1 span {
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: #1ED760;
+    padding-left: 9px;
+}
+main .user_info {}
+main .user_info #user_login_info {}
+main .sign {
+    margin-bottom: 55px;
+}
+main .sign a {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-left: 68px; margin-right: 68px;
+    margin-bottom: 55px;
+}
+main .sign a:nth-child(1) {
+    border-bottom: solid 3px #1ED760;
+}
+main .sign a span {
+    font-size: 1.25rem;
+}
+main .user_info .user_login_type {}
+main .user_info .user_login_type h2 {
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+main .user_info .user_login_type h2 input {
+    width: 500px; height: 73px;
+    border-radius: 36.5px;
+    border: solid #fff;
+    padding-left: 40px;
+}
+main .user_info .user_login_type h2::placeholder {color: #aaa;}
+main .user_info p {
+    margin: 25px 369px 0 34px;
+}
+main .user_info p input {
+    display: none;
+    margin-top: 15px;
+}
+main .user_info p input:checked + label {
+    background-image: url(../images/check_box.svg);
+    background-repeat: no-repeat;
+}
+main .user_info p label {
+    background-image: url(../images/check_box\ \(1\).svg);
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+main .user_info .button button {
+    width: 500px; height: 73px;
+    background-color: #1ED760; color: #fff;
+    border-radius: 36.5px;
+    border: solid 0px;
+    margin-top: 40px;
+}
+main .user_info .button #sign_in_button {}
+main .user_info .button p {}
+main .user_info .button p a {
+    margin-top: 14px;
+    color: #fff;
+    margin-left: 329px;
+}
