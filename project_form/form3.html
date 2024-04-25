@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/form3.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        select[name=month] + span {color: blue;}
+        select[name=days] + span {color: red;}
+    </style>
 </head>
 <body>
-    <main>
-        <div class="logo">
-            <h1><img src="./style/images/path14.svg" alt=""><a href="#">Spotify</a></h1>
-        </div>
-        <div class="choice">
-            <a href="#">SIGN IN</a>
-            <a href="#">SIGN UP</a>
-        </div>
-        <form action="#" method="post" id="login_button">
-            <fieldset>
-                <legend class="login"></legend>
-                <div class="login_text">
-                    <h2><input type="text" placeholder="Username" required></h2>
-                    <h2><input type="password" placeholder="Password" required></h2>
-                </div>
-                <p>
-                    <input type="checkbox" name="remember" id="stay" value="stay">
-                    <label for="stay">stay signed in</label>
-                </p>
-                <button type="submit" name="sign_in">SIGN IN</button>
-            </fieldset>
-        </form>
-        <h4><a href="#">Forget Password?</a></h4>
-    </main>
+    <h1>form</h1>
+    <form action="#" method="post" id="test">
+        <fieldset class="seiect">
+            <legend class="skip">선택양식</legend>
+            <dl>
+                <dt>성별</dt>
+                <dd>선택양식 중 하나만 선택 가능, 무조건 1개 이상 선택되어야 하는 경우</dd>
+                    <label>
+                        <input type="radio" name="gender" value="male">
+                        <span>남자</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female" checked="checked">
+                        <!-- checked="checked" 미리 영역을 선택해두는 설정 -->
+                        <span>여자</span>
+                    </label>
+                    <!-- input과 label이 형제인 경우 -->
+                    <!-- input:checked+label => background image -->
+                    <!-- input과 label이 부모+자식일 경우 -->
+                    <!-- label은 부모이기 때문에 대상으로 불가능함 -->
+                    <!-- 태그 추가 생성으로 구성 -->
+                    <!-- input:checked+span => background-img -->
+                </dd>
+                <dt>관심사 (2개 이상 선택)</dt>
+                <dd>
+                        <input type="checkbox" id="webplanner" name="web" value="webplanner">
+                        <label for="webplanner">웹기획자</label>
+                        <input type="checkbox" id="webdesigner" name="web" value="webdesigner" checked="checked">
+                        <label for="webdesigner">웹디자이너</label>
+                        <input type="checkbox" id="webpublisher" name="web" value="webpublisher">
+                        <label for="webpublisher">웹퍼블리셔 </label>
+                        <input type="checkbox" id="frontanddevelopers" name="web" value="frontanddevelopers">
+                        <label for="frontanddevelopers">프론트앤드개발자</label>
+                        <input type="checkbox" id="backend_developer" name="web" value="backend_developer">
+                        <label for="backend_developer">백엔드개발자</label>
+                    </label>
+                </dd>
+                <dt>생일</dt>
+                <dd>
+                    <select name="month">
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
+                        <option value="07">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select><span>월</span>
+                    <select name="days">
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                    </select><span>일</span>
+                </dd>
+            </dl>
+        </fieldset>
+        <fieldset class="btn">
+            <legend class="skip">버튼</legend>
+<!--             <input type="submit" value="전송, 확인"> -->
+            <button type="submit" id="loginbtn">전송</button>
+            <button type="reset" id="joinresetbtn">취소</button>
+            <button type="button" id="allaroundbtn">범용특징버튼</button>
+            <!-- 사용자의 체크에 따라서 확인을 하고 다음으로 넘어갈 수 잇게 동적인 기능 사용,
+                동의 다 했으면 활성화 해서 다음 페이지로 전송 (a 태그가 아닌 button 사용) -->
+            <hr>
+            <input type="file">
+        </fieldset>
+    </form>
 </body>
 </html>
