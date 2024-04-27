@@ -1,0 +1,145 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    width: 340px;
+    letter-spacing: -0.2px;
+    margin: 0 auto;
+}
+main h1 {
+    margin-top: 20px;
+    text-align: left;
+}
+main .join.up {
+    width: 340px;
+}
+main .join_up h2 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: left;
+}
+main .join_up p {
+    font-size: 0.688rem;
+    margin-top: 3px;
+    color: #aaa;
+}
+main .join_icon {
+    margin-top: 13px;
+    margin-bottom: 32px;
+}
+main .join_icon a {
+    margin-right: 12px;
+}
+main .join_icon a:last-child {
+    margin-right: 0;
+}
+main h2,
+main dl dt {
+    margin-top: 26px; margin-bottom: 9px;
+    text-align: left;
+    font-weight: 500;
+}
+main select,
+main dl dd input[name=user_email] {
+    width: 160px; height: 36px;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+}
+main dd {
+    text-align: left;
+}
+main dd em {
+    font-size: 0.875rem;
+    color: #aaa;
+}
+main input::placeholder {
+    padding-left: 10px;
+}
+main button[name=check_button] {
+    width: 340px; height: 42px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+main button[id=email_check] {
+    background-color: #fff;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    color: #b2b2b2;
+}
+main dd span {
+    font-size: 0.75rem;
+    color: #aaa;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+main input {
+    width: 340px; height: 42px;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+}
+main .all_law {
+    border: solid 1px #ddd;
+    text-align: left;
+    padding: 12px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+main .all_law input:checked+label {
+    background-image: url(../image/check.png);
+}
+main .all_law label {
+    background-image: url(../image/uncheck.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+main .all_law p {
+    margin-bottom: 12px;
+}
+main .all_law p span {
+    font-size: 0.75rem;
+    color: #aaa;
+    padding-left: 5px;
+}
+main label[for=all_check] {
+    font-size: 0.875;
+    font-weight: 500;
+}
+main .law ul input:checked+label {
+    background-image: url(../image/check.png);
+}
+main .law ul label {
+    background-image: url(../image/uncheck.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 0.875rem;
+    line-height: 160%;
+}
+main .law {
+    text-align: left;
+}
+main .law ul li {
+    margin-bottom: 13px;
+}
+main .law ul li:last-child {
+    margin-bottom: 0;
+}
+main .law ul li:first-child {
+    margin-top: 12px;
+}
+main .all_law input,
+main .law ul input {
+    display: none;
+}
+main .law span {
+    font-size: 0.75rem;
+    color: #35C5F0;
+}
+main .last button[id=join_up_button] {
+    background-color: #35C5F0;
+    border: solid 0;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+main .last a {
+    font-weight: 700;
+}
