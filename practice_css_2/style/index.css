@@ -1,0 +1,23 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -2px;
+}
+#bg1 {
+    background-image: url("../image/bg.jpg");
+    width: 1920px; height: 1002px;
+    margin: 0 auto;
+}
+.logo,
+.main_text,
+.often_question {
+    width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+main .logo {
+    d;
+}
+.main_text h1,
+.main_text span {
+    font-size: 4.375rem;
+}
