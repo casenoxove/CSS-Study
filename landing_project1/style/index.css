@@ -38,6 +38,7 @@ main .logo {
     font-size: 2.215rem;
     font-weight: 600;
     padding-top: 4px;
+    margin-top: 55px;
 }
 .main_text img {
     margin-left: 10px;
@@ -52,29 +53,85 @@ main .logo {
     background-color: black;
     color: #fff;
     font-size: 1.25rem;
+    padding-bottom: 20px;
 }
 .often_question span img {
-    width: 24px; height: 24px;
+    padding-top: 10px;
     padding-right: 10px;
 }
-.often_question img {
-    width: 18px; height: 18px;
+.often_question button > img {
+    width: 30px;
     padding-left: 10px;
 }
 /* 2번째 시작 */
 #bg2 {
+    background-image: url(../image/bg_2.jpg);
+    width: 1920px; height: 500px;
+    margin: 0 auto;
+    color: #fff;
+}
+.main_text_2,
+form,
+.quiz_join,
+p {
+    width: 1250px;
+    margin: 0 auto;
+}
+.main_text_2 h2 {
+    padding-top: 42px;
+    font-size: 3.438rem;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.main_text_2 p {
+    margin-bottom: 25px;
+}
+#bg2 fieldset {
+    display: flex;
+    flex-direction: column;
+}
+#bg2 input {
+    display: none;
+}
+#bg2 input:checked+label {
+    background-image: url(../image/quiz_check.png);
+}
+#bg2 label {
+    background-image: url(../image/quiz_uncheck.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-bottom: 14px;
+}
+#bg2 .answer button {
+    width: 450px; height: 39px;
+    background-color: black;
+    color: #fff;
+    border: solid 0;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+.quiz_join {
+    text-align: right;
+    margin-left: auto;
+}
+#bg2 > p {
+    text-align: right;
+}
+/* 3번째 시작 */
+#bg3 {
     background-image: url("../image/bg_3.jpg");
     width: 1920px; height: 1180px;
     margin: 0 auto;
     text-align: center;
 }
-.main_text_2 h2 {
+.main_text_3 h2 {
     font-size: 3.438rem;
     line-height: 120%;
     margin-top: 119px;
     margin-bottom: 70px;
 }
-#bg2 button {
+#bg3 button {
     width: 450px; height: 71px;
     border-radius: 50px;
     border: solid 0;
@@ -83,4 +140,36 @@ main .logo {
     font-size: 2.215rem;
     font-weight: 600;
     margin: 88px 0;
+}
+#bg3 img {
+    margin-left: 10px;
+}
+/* 4번째 시작 */
+#bg4 {
+    background-image: url("../image/bg_4.jpg");
+    width: 1920px; height: 1180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_text_4,{
+    width: 1250px;
+    margin: 0 auto;
+}
+.main_text_4 h2 {
+    margin-left: 335px;
+}
+.main_text_4 h2,
+.main_text_4 span {
+    font-size: 3.438rem;
+    color: #fff;
+    padding-top: 147px;
+    text-align: left;
+    line-height: 120%;
+}
+.main_text_4 p {
+    font-size: 2.125rem;
+    color: #fff;
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
