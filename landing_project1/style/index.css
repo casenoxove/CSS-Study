@@ -1,0 +1,86 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -2px;
+}
+#bg1 {
+    background-image: url("../image/bg.jpg");
+    width: 1920px; height: 1002px;
+    margin: 0 auto;
+}
+.logo,
+.main_text,
+.often_question {
+    width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+main .logo {
+    text-align: left;
+}
+.main_text h1,
+.main_text span {
+    font-size: 4.375rem;
+    line-height: 120%;
+    color: #fff;
+}
+.main_text h1 {
+    font-weight: 400;
+}
+.main_text span {
+    font-weight: 700;
+}
+.main_text button {
+    width: 450px; height: 71px;
+    border-radius: 50px;
+    border: solid 0;
+    background-color: #f29300;
+    color: #fff;
+    font-size: 2.215rem;
+    font-weight: 600;
+    padding-top: 4px;
+}
+.main_text img {
+    margin-left: 10px;
+}
+.often_question {
+    text-align: right;
+    margin-top: 69px;
+}
+.often_question button {
+    width: 380px; height: 54px;
+    border-radius: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.often_question span img {
+    width: 24px; height: 24px;
+    padding-right: 10px;
+}
+.often_question img {
+    width: 18px; height: 18px;
+    padding-left: 10px;
+}
+/* 2번째 시작 */
+#bg2 {
+    background-image: url("../image/bg_3.jpg");
+    width: 1920px; height: 1180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_text_2 h2 {
+    font-size: 3.438rem;
+    line-height: 120%;
+    margin-top: 119px;
+    margin-bottom: 70px;
+}
+#bg2 button {
+    width: 450px; height: 71px;
+    border-radius: 50px;
+    border: solid 0;
+    background-color: #f29300;
+    color: #fff;
+    font-size: 2.215rem;
+    font-weight: 600;
+    margin: 88px 0;
+}
