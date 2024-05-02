@@ -1,0 +1,141 @@
+#app {
+    width: 375px;
+    height: 812px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+    padding-top: 42px;
+}
+#app header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    border: 1px solid gray;
+}
+#app main {}
+#app header .left {}
+#app header .left h2 {
+    font-size: 1.25rem;
+}
+#app header .right {}
+#app header .right a {
+    background-color: gray;
+    margin-left: 16px;
+}
+#app header .right img {
+    width: 24px; height: 24px;
+}
+#app main {}
+#app main .login_btn {
+    margin: 16px;
+}
+#app main .login_btn a {}
+#app main .login_btn span {
+    font-weight: 700;
+}
+#app main .login_btn img {}
+#app #menu_icon {
+    padding: 0 16px;
+}
+#app #menu_icon .icon_top {
+    display: flex;
+    margin-bottom: 16px;
+}
+#app #menu_icon .icon_top a {
+    border: solid 1px gray;
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+#app #menu_icon .icon_top img {
+    width: 42px; height: 42px;
+    background-color: gray;
+}
+#app #menu_icon .icon_botton {
+    display: flex;
+    margin-bottom: 16px;
+}
+#app #menu_icon .icon_botton a {
+    border: solid 1px gray;
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;    
+}
+#app #menu_icon .icon_botton img {
+    width: 42px; height: 42px;
+    background-color: gray;
+}
+#app #menu_icon .adver {
+    border: 1px solid gray;
+    padding: 14px 0;
+}
+#app #menu_icon .adver a {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+#app #menu_icon .adver img {
+    background-color: gray;
+    width: 24px; height: 24px;
+}
+#app #menu_icon .adver span {
+    padding-left: 12px;
+}
+#app .adver_2 {
+    width: 375px; height: 137px;
+    margin-top: 18px;
+    margin-bottom: 62px;
+    background-color: gray;
+}
+#app .all_service {
+    padding: 0 16px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+#app .all_service h3 {}
+#app .all_service span {
+    font-size: 0.75rem;
+}
+#app .all_service img {
+    width: 12px; height: 12px;
+    background-color: gray;
+    margin-right: 10px;
+}
+#app .weather {
+    padding: 0 16px;
+    height: 37px;
+    margin: 20px 0 30px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+#app .weather_add {
+    padding: 0 16px;
+    margin-bottom: 47px;
+    display: flex;
+    flex-flow: row wrap;
+}
+#app .weather_add a {
+    border: 1px solid gray;
+    width:calc(100% / 2);
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+#app .weather_add img {
+    background-color: lightgray;
+    width: 24px; height: 24px;   
+}
+#app .weather_add span {
+    padding-left: 10px;
+    font-size: 0.875rem;
+}
