@@ -9,7 +9,8 @@ main #one {
 }
 .logo,
 .main_text,
-.add_text {
+.add_text,
+.start_btn {
     width: 1200px;
     margin: 0 auto;
     color: #fff;
@@ -40,11 +41,16 @@ main #one .main_text h1:after {
 main #one .add_text {}
 main #one .add_text p {
     font-size: 2rem;
+    line-height: 150%;
 }
 main #one .add_text p span {
     color: #ffeb60;
 }
-main #one .add_text button {
+main #one .start_btn {
+    text-align: center;
+    margin-top: 162px;
+}
+main #one .start_btn button {
     width: 333px; height: 57px;
     border-radius: 50px;
     background-color: #242424;
@@ -52,6 +58,200 @@ main #one .add_text button {
     border: 0;
     font-size: 1.5rem;
 }
-main #one .add_text button span {
+main #one .start_btn button span {
     font-weight: 700;
 }
+main #two {
+    background-image: url(../image/bg2.jpg);
+    width: 1920px; height: 697px;
+    margin: 0 auto;
+}
+.title,
+.question {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+main #two .title {
+    text-align: center;
+}
+main #two .title img {
+    margin: 57px 0;
+}
+main #two .title p {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+main #two .question {
+    text-align: center;
+}
+main #two .question p {
+    font-size: 1.25rem;
+    text-decoration: underline 1px;
+}
+main #two .question span {
+    font-weight: 700;
+}
+main #two .question em {
+    color: #ffeb60;
+}
+main #two .question form {
+    margin-top: 60px;
+}
+main #two .question form fieldset {
+    display: flex;
+    justify-content: center;
+}
+main #two .question form fieldset ul {}
+main #two .question form fieldset ul li {
+    text-align: left;
+    padding-bottom: 20px;
+}
+main #two .question form fieldset ul li input {
+    display: none;
+}
+main #two .question form fieldset ul li input:checked+label {
+    background-image: url(../image/check.png);
+}
+main #two .question form fieldset ul li label {
+    font-size: 1.25rem;
+    background-image: url(../image/uncheck.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    display: flex;
+}
+main #two .question form .answer button {
+    width: 372px;
+    height: 57px;
+    margin-top: 54px;
+    border-radius: 50px;
+    background-color: #ffeb60;
+    color: #242424;
+    font-size: 1.5rem;
+}
+main #two .question form .answer span {
+    font-weight: 700;
+}
+main #three {
+    background-image: url(../image/bg3.jpg);
+    width: 1920px; height: 877px;
+    margin: 0 auto;
+    display: flex;
+}
+.three_left,
+.three_right {
+    margin: 0 auto;
+    color: #242424;
+}
+main #three .three_left {
+    margin-left: 360px;
+    margin-top: 195px;
+}
+main #three .three_right {
+    padding-right: 210px;
+    margin-top: 295px;
+}
+main #three .three_right h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+main #three .three_right span {
+    color: #9F4EEF;
+    font-weight: 700;
+}
+main #three .three_right p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+main #four {
+    background-image: url(../image/bg4.jpg);
+    width: 1920px; height: 838px;
+    margin: 0 auto;
+}
+.main_text_4,
+.merit {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+main #four .main_text_4 {
+    padding-top: 169px;
+}
+main #four .main_text_4 h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+main #four .main_text_4 p {
+    line-height: 150%;
+    margin-bottom: 72px;
+    font-size: 1.25rem;
+}
+main #four .merit {}
+main #four .merit ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: left;
+}
+main #four .merit ul li {
+    margin-bottom: 40px;
+    background-color: #9F4EEF;
+    color: #fff;
+    border-radius: 50px;
+    width: 464px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+main #four .merit ul li img {
+    padding-right: 17px;
+    padding-left: 17px;
+}
+main #five {
+    background-image: url(../image/bg5.jpg);
+    width: 1920px; height: 1129px;
+    margin: 0 auto;
+}
+.main_text_5,
+.number_icon,
+.audio {
+    width: 1200px;
+    margin: 0 auto;
+}
+main #five .main_text_5 {}
+main #five .main_text_5 h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 230px;
+    padding-left: 256px;
+    text-decoration: underline 2px;
+}
+main #five .main_text_5 .add {
+    margin-top: 42px;
+    padding-left: 85px;
+    font-size: 2rem;
+}
+main #five .main_text_5 .add_2 {
+    padding-left: 94px;
+    font-size: 1.5rem;
+    margin-top: 32px;
+    font-weight: 300;
+}
+main #five .number_icon {
+    margin-top: 42px;
+    margin-right: 102px;
+}
+main #five .number_icon a {
+    padding-left: 41px;
+    background-color: #ffeb60;
+    border-radius: 50px;
+}
+main #five .audio {
+    display: flex;
+    justify-content: right;
+}
+main #five .audio img {}
