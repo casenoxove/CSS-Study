@@ -215,43 +215,152 @@ main #five {
     background-image: url(../image/bg5.jpg);
     width: 1920px; height: 1129px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .main_text_5,
-.number_icon,
 .audio {
-    width: 1200px;
-    margin: 0 auto;
+    margin-top:237px;
 }
 main #five .main_text_5 {}
 main #five .main_text_5 h2 {
-    font-size: 4rem;
     font-weight: 700;
-    padding-top: 230px;
-    padding-left: 256px;
-    text-decoration: underline 2px;
+    font-size: 3rem;
+    padding-left: 400px;
+}
+main #five .main_text_5 h2::after {
+    content: "";
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 180px;
+    margin: 8px 0;
 }
 main #five .main_text_5 .add {
     margin-top: 42px;
-    padding-left: 85px;
     font-size: 2rem;
+    text-align: right;
 }
-main #five .main_text_5 .add_2 {
-    padding-left: 94px;
-    font-size: 1.5rem;
+main #five .main_text_5 .a {
     margin-top: 32px;
-    font-weight: 300;
+    font-size: 1.5rem;
 }
-main #five .number_icon {
+main #five .main_text_5 .number {
+    float: right;
+}
+main #five .main_text_5 button[id=first_num_1] {
+    margin-right: 40px;
+}
+main #five .main_text_5 button[id=first_num_2] {
+    margin-right: 40px;
+}
+main #five .main_text_5 button[id=first_num_3] {
+    margin-right: 40px;
+}
+main #five .main_text_5 .number button {
     margin-top: 42px;
-    margin-right: 102px;
-}
-main #five .number_icon a {
-    padding-left: 41px;
-    background-color: #ffeb60;
     border-radius: 50px;
+    background-color: #ffeb60;
+    width: 40px; height: 40px;
+    border: solid 0;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
-main #five .audio {
+main #five .audio {}
+main #five .audio img {
+    padding-left: 150px;
+    margin-right: 100px;
+}
+main #six {
+    background-color: #fff;
+    width: 1920px; height: 1129px;
+    margin: 0 auto;
     display: flex;
-    justify-content: right;
+    flex-direction:row-reverse;
 }
-main #five .audio img {}
+.main_text_6,
+.viewer {
+    margin-top:237px;
+    width: 1200px;
+}
+main #six .main_text_6 {
+}
+main #six .main_text_6 h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-right: 400px;
+}
+main #six .main_text_6 h2::after {
+    content: "";
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 180px;
+    margin: 10px 0;
+}
+main #six .main_text_6 .add {
+    margin-top: 42px;
+    font-size: 2rem;
+    text-align: left;
+}
+main #six .main_text_6 .a {
+    margin-top: 32px;
+    font-size: 1.5rem;
+}
+main #six .main_text_6 .number {}
+main #six .main_text_6 .number button {
+    margin-top: 42px;
+    border-radius: 50px;
+    background-color: #ffeb60;
+    width: 40px; height: 40px;
+    border: solid 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+main #six .main_text_6 button[id=second_num_1] {
+    margin-right: 40px;
+}
+main #six .main_text_6 button[id=second_num_2] {
+    margin-right: 40px;
+}
+main #six .main_text_6 button[id=second_num_3] {
+    margin-right: 40px;
+}
+main #six .viewer {
+    padding-left: 250px;
+}
+main #six .viewer img {
+    padding-right: 150px;
+    margin-left: 100px;
+}
+main #seven {
+    background-image: url(../image/bg7.png);
+    width: 1920px; height: 794px;
+    margin: 0 auto;
+    text-align: center;
+}
+main #seven .main_text_7 {
+    display: inline-block;
+}
+main #seven .main_text_7 h2 {
+    padding-top: 110px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+main #seven .main_text_7 p {
+    width: 554px; height: 56px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 8px;
+    margin: 68px 0;
+}
+main #seven .main_text_7 img {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+main #seven .category {}
+main #seven .category p {}
+main #seven .end {}
