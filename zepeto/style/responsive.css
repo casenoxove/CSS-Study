@@ -1,0 +1,15 @@
+/* 반응형웹 responsive */
+/* 기존 css에서 변경되는 시항만 작성한다 */
+/* media 규칙 시작값 max 기준 사이트 너비 값 주로 이용 */
+@media screen and (max-width:1200px){
+    header nav {display: none;}
+    header .main_title video {width: 1300px;}
+    main .creater {width: 100%;}
+}
+@media screen and (max-width:760px){
+    header h1 {width: 271px;}
+    main .creater .img {width: 100%;}
+    main .creater .count {flex-flow:row wrap;}
+    main .creater .count dl {width: calc(100% / 2);}
+    main .creater .count dl:last-child {width: 100%;}
+}
