@@ -3,9 +3,12 @@ main {
 }
 #one {
     background-image: url(../image/bg1.png);
-    width: 1250px; height: 832px;
-    margin: 0 auto;
+    height: 832px;
     color: #fff;
+}
+#one > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #one .nav {
     padding-top: 26px;
@@ -59,10 +62,13 @@ main {
 /* 두번째 */
 #two {
     background-image: url(../image/bg2.png);
-    width: 1250px; height: 857px;
-    margin: 0 auto;
+    height: 857px;
     color: #fff;
     text-align: center;
+}
+#two > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #two .top {
     padding-top: 119px;
@@ -129,15 +135,18 @@ main {
 }
 #two_add {
     background-image: url(../image/bg_add.png);
-    width: 1250px; height: 211px;
+    height: 211px;
     text-align: center;
     padding: 57px;
     margin: 0 auto;
 }
 /* 세번째 */
 #three {
-    width: 1250px; height: 758px;
+    height: 758px;
     text-align: center;
+}
+#three > * {
+    width: 1250px;
     margin: 0 auto;
 }
 #three .main_2 {}
@@ -158,9 +167,12 @@ main {
 /* 4번째 */
 #four {
     background-image: url(../image/bg4.png);
-    width: 1250px; height: 987px;
-    margin: 0 auto;
+    height: 987px;
     text-align: center;
+}
+#four > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #four .main_4 {}
 #four .main_4 h2 {
@@ -217,10 +229,13 @@ main {
 /* 5번째 */
 #five {
     background-image: url(../image/bg5.png);
-    width: 1250px; height: 417px;
-    margin: 0 auto;
+    height: 417px;
     text-align: center;
     color: #fff;
+}
+#five > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #five .main_5 {
     padding-top: 105px;
@@ -250,7 +265,10 @@ main {
 /* 6-1번째 */
 #six_add {
     background-image: url(../image/bg_add2.png);
-    width: 1250px; height: 211px;
+    height: 211px;
+}
+#six_add > * {
+    width: 1250px;
     margin: 0 auto;
 }
 #six_add .add_text {
@@ -368,11 +386,14 @@ main {
 /* 8번째 */
 #eight {
     background-image: url(../image/bg8.png);
-    width: 1250px; height: 668px;
-    margin: 0 auto;
+    height: 668px;
     text-align: right;
     padding-top: 170px;
     padding-right: 180px;
+}
+#eight > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #eight .main_8 {
     text-align: right;
@@ -427,9 +448,12 @@ main {
 /* 9번째 */
 #nine {
     background-image: url(../image/bg9.png);
-    width: 1250px; height: 950px;
-    margin: 0 auto;
+    height: 950px;
     text-align: center;
+}
+#nine > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #nine .main_9 {
     padding-top: 73px;
@@ -462,9 +486,12 @@ main {
 }
 #ten {
     background-image: url(../image/10.png);
-    width: 1250px; height: 801px;
-    margin: 0 auto;
+    height: 801px;
     text-align: center;
+}
+#ten > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #ten .main_10 {
     padding-top: 45px;
@@ -498,13 +525,13 @@ main {
 }
 #eleven {
     background-image: url(../image/bg11.png);
-    width: 1250px; height: 607px;
-    margin: 0 auto;
+    height: 607px;
     padding-top: 200px;
     padding-left: 180px;
-
 }
-#eleven .main_11 {
+#eleven > * {
+    width: 1250px;
+    margin: 0 auto;
 }
 #eleven .main_11 h2 {
     font-family: "Orbit", sans-serif;
