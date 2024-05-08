@@ -1,0 +1,41 @@
+/*     <style>
+        /* mobile 320px 설계 시작
+        @media screen and (min-width:320px){
+            #app {
+                background-color: lightblue;
+                width: 100%;
+                margin:0 auto;
+                /* min, max 최소 최대 너비 기준값은 수정작업의 간편화를 위해서
+                선언 가장 첫번째 위치에 몰아서 작성한다.
+                min-width: 320px;
+                max-width: 1000px;
+                /* height: 568px; /* ios se 
+            }
+            #app .product {
+                background-color: lightpink;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                padding: 0 16px;
+            }
+            #app .product .item {
+                background-color: lightgray;
+                width: calc((100% / 2) - 10px);
+                height: 120px; margin: 0 0 20px;
+                font-size: 2rem;
+                text-align: center;
+            }
+        /* min: 320px 
+        @media screen and (min-width:480px){
+            /* @media 조건 2개 이상 작성 시 -> 먼저 선언된 속성:값 기준 변경되는 값만 작성한다. 
+            #app .product {background-color: hotpink;}
+            #app .product .item {
+                width: calc((100% / 3) - 20px );
+            }
+        } /* min: 480px 
+        @media screen and (min-width:760px){
+            #app .product .item {
+                width:calc((100% / 4) - 10px);
+            }
+        }
+    </style> */

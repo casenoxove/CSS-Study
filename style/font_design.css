@@ -1,19 +1,40 @@
 main {
+    background-color: lightgray;
     font-family: "noto sans kr", "맑은 고딕", sans-serif;
 }
 /* 선택자 {} */
-main .first {}
+main section p {
+    font-size: 1.063rem;
+}
+main .first {
+    /* background-color: yellow; */
+    /* background-color: #ffff00; */
+    /* background-color: #ff0; */
+    /* background-color: rgb(255,255,0); */
+    background-color: rgba(255, 255, 196, 0.35);
+}
 main .first h1 {
     font-family: Jua, sans-serif;
 }
 main .first p {
     font-family: "Nanum Pen Script", cursive;
 }
-main .first h1 p em {}
-main .second {}
+main .first h1 p em {
+}
+main .second {background-color: rgb(211, 224, 240);}
 main .second h1 {
     font-family: "Nanum Myeongjo", serif;
 }
 main .second p {
     font-family: "Single Day", cursive;
 }
+main .second ul {}
+main .second ul li {
+    line-height: 1.8;
+/*     line-height: 30px */
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
+}
+/* 공통 */
+main .first h1,
+main .second h1 {font-size: 2.188rem;}
