@@ -5,6 +5,7 @@ main {
     background-image: url(../image/bg1.png);
     height: 832px;
     color: #fff;
+    background-size: cover;
 }
 #one > * {
     width: 1250px;
@@ -65,6 +66,7 @@ main {
     height: 857px;
     color: #fff;
     text-align: center;
+    background-size: cover;
 }
 #two > * {
     width: 1250px;
@@ -123,15 +125,30 @@ main {
     margin-bottom: 24px;
     border: 0;
 }
-#two button:hover {
-    background-color: #FFEB60;
+#two input {
+    display: none;
 }
-#two button[name=answer] {}
+#two input:checked+label {
+    background-image: url(../image/check.png);
+}
+#two label {
+    background-image: url(../image/uncheck.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+}
 #two button[type=submit] {
     background-color: #fff;
-    width: 56px; height: 54px;
+    font-size: 1.15rem;
+    width: 428px; height: 54px;
     margin-top: 38px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: "Orbit", sans-serif;
+}
+#two button:hover {
+    background-color: #FFEB60;
 }
 #two_add {
     background-image: url(../image/bg_add.png);
@@ -169,6 +186,7 @@ main {
     background-image: url(../image/bg4.png);
     height: 987px;
     text-align: center;
+    background-size: cover;
 }
 #four > * {
     width: 1250px;
@@ -176,14 +194,14 @@ main {
 }
 #four .main_4 {}
 #four .main_4 h2 {
-    padding-top: 108px;
+    padding-top: 120px;
     font-size: 2rem;
     font-weight: 700;
     font-family: "Orbit", sans-serif;
 }
 #four .main_4 p {
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     line-height: 150%;
 }
 #four .point {}
@@ -193,12 +211,13 @@ main {
 }
 #four .point ul li {
     width: 261px; height: 382px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     text-align: left;
     margin-left: 29px;
     border-radius: 15px;
     padding-left: 48px;
     padding-top: 45px;
+    box-shadow: 0 10px 10px -5px gray;
 }
 #four .point ul li:first-child {
     margin: 0;
@@ -232,6 +251,7 @@ main {
     height: 417px;
     text-align: center;
     color: #fff;
+    background-size: cover;
 }
 #five > * {
     width: 1250px;
@@ -266,6 +286,7 @@ main {
 #six_add {
     background-image: url(../image/bg_add2.png);
     height: 211px;
+    background-size: cover;
 }
 #six_add > * {
     width: 1250px;
@@ -286,7 +307,12 @@ main {
 /* 6번째 */
 #six {
     background-image: url(../image/bg6.png);
-    width: 1250px; height: 850px;
+    height: 850px;
+    margin: 0 auto;
+    background-size: cover;
+}
+#six > * {
+    width: 1250px;
     margin: 0 auto;
 }
 #six .main_6 {
@@ -337,7 +363,11 @@ main {
 /* 7번째 */
 #seven {
     background-image: url(../image/bg7.png);
-    width: 1250px; height: 850px;
+    height: 850px;
+    margin: 0 auto;
+}
+#seven > * {
+    width: 1250px;
     margin: 0 auto;
 }
 #seven .main_7 {
@@ -390,6 +420,7 @@ main {
     text-align: right;
     padding-top: 170px;
     padding-right: 180px;
+    background-size: cover;
 }
 #eight > * {
     width: 1250px;
@@ -448,28 +479,29 @@ main {
 /* 9번째 */
 #nine {
     background-image: url(../image/bg9.png);
-    height: 950px;
+    height: 1048px;
     text-align: center;
+    background-size: cover;
 }
 #nine > * {
     width: 1250px;
     margin: 0 auto;
 }
 #nine .main_9 {
-    padding-top: 73px;
+    padding-top: 130px;
 }
 #nine .main_9 p {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 #nine .main_9 h2 {
     font-family: "Orbit", sans-serif;
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
 }
 #nine .main_9 .title {
     font-size: 1.5rem;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
 }
 #nine .main_9 .title span {
     font-size: 1.5rem;
@@ -486,15 +518,16 @@ main {
 }
 #ten {
     background-image: url(../image/10.png);
-    height: 801px;
+    height: 1078px;
     text-align: center;
+    background-size: cover;
 }
 #ten > * {
     width: 1250px;
     margin: 0 auto;
 }
 #ten .main_10 {
-    padding-top: 45px;
+    padding-top: 60px;
 }
 #ten .main_10 p {
     letter-spacing: 10px;
@@ -528,6 +561,7 @@ main {
     height: 607px;
     padding-top: 200px;
     padding-left: 180px;
+    background-size: cover;
 }
 #eleven > * {
     width: 1250px;
