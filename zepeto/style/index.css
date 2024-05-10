@@ -57,7 +57,8 @@ header .snb a img {
 }
 /* snb a 상태선택자 */
 header .snb a:first-child:hover {
-    border-color: yellow;
+    background-color: #fff;
+    color: #000;
 }
 header .snb a:last-child:hover img {
     filter:invert(1) opacity(50%);
@@ -102,7 +103,7 @@ main .visual .visual_title .start_link {
     margin-top: 57px;
 }
 main .visual .visual_title .start_link:hover {
-    border-radius: 20px;
+    transform: scale(1.1);
 }
 /* 2. 크리에이터 */
 main .creater {
@@ -130,12 +131,11 @@ main .creater .count {
     flex-flow: row nowrap;
     justify-content: center;
     margin-top: 55px;
+    padding-bottom: 150px;
 }
 main .creater .count dl {
     width: 433px;
-    background-color: aqua;
     padding: 16px 0;
-    border: 1px solid #000;
 }
 main .creater .count dl dt {
     font-size: 2rem;
@@ -145,3 +145,127 @@ main .creater .count dl dd {
     font-size: 1.25rem;
     padding-top: 10px;
 }
+/* 3번째 시작 */
+main #world {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+main #wolrd > * {
+    width: 1300px;
+    margin: 0 auto;
+}
+main #world .main_text {
+    padding-top: 150px;
+}
+main #world .main_text h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+main #world .main_text p {
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+}
+main #world .wrap {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    padding-bottom: 150px;
+}
+main #world .wrap dl {
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 413px; height: 350px;
+    margin-right: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+main #world .wrap dl dt {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+main #world .wrap dl dd {
+    padding: 40px 0;
+    line-height: 150%;
+}
+main #world .wrap dl dd a {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 13px 25px;
+}
+/* 5번째 시작 */
+main #idea {
+    text-align: center;
+}
+main #idea > * {
+    width: 1300px;
+    margin: 0 auto;
+}
+main #idea .main_text2 {
+    padding-top: 150px;
+}
+main #idea .main_text2 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+main #idea .main_text2 p {
+    margin-top: 50px;
+    line-height: 150%;
+}
+main #idea .people {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+main #idea .people ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #idea .people ul li {}
+main #idea .people ul img {
+    width: 240px;
+}
+/* ========================footer */
+.f_bg {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+.f_bg footer {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.f_bg footer .f_top {
+    display: flex;
+    justify-content: space-between;
+}
+.f_bg footer .f_top .f_menu {
+    margin-bottom: 24px;
+}
+.f_bg footer .f_top .f_menu a {
+    padding-left: 24px;
+}
+.f_bg footer .f_top .f_menu a:first-child {
+    padding: 0;
+}
+.f_bg footer .f_top .lang_sns {
+    display: flex;
+    align-items: center;
+}
+.f_bg footer .f_top .lang_sns select {
+    border: solid 0;
+    height: 25px;
+    border-radius: 5px;
+}
+.f_bg footer .f_top .lang_sns select option {}
+.f_bg footer .f_top .lang_sns a {
+    padding-left: 10px;
+}
+.f_bg footer .f_top .lang_sns a:first-child {
+    padding: 0;
+}
+.f_bg footer .f_top .lang_sns a img {}
+.f_bg footer .copy {}

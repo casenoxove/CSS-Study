@@ -3,8 +3,12 @@
 /* media 규칙 시작값 max 기준 사이트 너비 값 주로 이용 */
 @media screen and (max-width:1200px){
     header nav {display: none;}
-    header .main_title video {width: 1300px;}
+    header .main_title video {width: 100%;} /* 변경된 부분 */
     main .creater {width: 100%;}
+    main #idea .title {width: 100%;}
+    main #idea .title .people li {width: calc((100% / 4) - 10px);}
+    main #idea .title .people li:last-child {display: none;}
+    .f_bg footer {padding: 0 16px;}
 }
 @media screen and (max-width:760px){
     header h1 {width: 271px;}
@@ -12,4 +16,18 @@
     main .creater .count {flex-flow:row wrap;}
     main .creater .count dl {width: calc(100% / 2);}
     main .creater .count dl:last-child {width: 100%;}
+    main #world .wrap {flex-flow: row wrap;}
+    main #world .wrap dl {
+        width: 100%; /* 변경된 부분 */
+        height: 150px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content:space-around;
+    }
+    main #idea .title h2 {font-size: 2.188rem;}
+    main #idea .title p {font-size: 1.0rem}
+    main #idea .title .people li {width: calc((100% / 3) - 10px);}
+    main #idea .title .people li:nth-child(4) {display: none;} /* 변경된 부분 */
+    .f_bg footer .f_top {flex-flow: column;}
+    .f_bg footer .f_top .f_menu {margin-bottom: 10px;}
 }
