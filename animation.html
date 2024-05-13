@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        button {
+            padding: 20px; border: 0; margin: 20px;
+            background-color: lightyellow; color: lightblue;
+            transition:background-color 0.5s;
+        }
+        #btn1:hover {
+            background-color: lightblue; color: lightyellow;
+            /* hover 이용 css 속성값 변경 시 즉시 변경 */
+            /* 자연스러운 전환 애니메이션 원한다면? */
+            /* transition: 애니메이션 적용 속성 지속시간 */
+            transition:background-color 0.5s;
+            /* 마우스를 올렸을 땐 자연스럽게 변환 성공 */
+            /* 마우스가 나가면 왜 다시 즉시 변경될까? */
+            /* 이유 => transition 을 hover 선택지에 썼기 때문 */
+        }
+        #btn2 {
+            width: 100px;
+            transition:width 0.5s;
+        }
+        #btn2:hover {width:200px;}
+        #btn3 {
+            position: relative; left:0;
+            width: 150px; height: 70px;
+            background-color: lightblue; color: lightyellow;
+            transition: left 1s, width 0.5s, background-color 0.2s ;
+        }
+        #btn3:hover {
+            left: 100px;
+            width: 200px; height: 100px;
+            background-color: lightpink;
+        }
+        #btn4 {
+            border: 5px solid lightcyan;
+            position: relative; top: 0px;
+            transition: top 1s;
+        }
+        #btn4:hover {
+            border: 5px solid lightyellow;
+            background-color: lightblue;
+            color: lightyellow;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>css animation</h1>
+    <button type="button" id="btn1">button</button>
+    <hr>
+    <button type="button" id="btn2">button</button>
+    <hr>
+    <button type="button" id="btn3">button</button>
+    <hr>
+    <button type="button" id="btn4">button</button>
+</body>
+</html>
