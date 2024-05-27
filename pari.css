@@ -1,0 +1,215 @@
+body {
+    width: 430px;
+    height: 2500px;
+    margin: 0 auto;
+    letter-spacing: -0.2px;
+}
+header, main {
+    background-color: #E6D9B7;
+}
+header {}
+header nav {}
+header nav .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px 16px;
+}
+header nav .top h1 {}
+header nav .top h1 a {
+    font-size: 0.75rem;
+}
+header nav .top h1 a span {
+    font-size: 0.75rem;
+    color: #023586;
+    position: relative;
+}
+header nav .top h1 a span:after {
+    content: '';
+    position: absolute;
+    left: 0; top: 17px;
+    background-color: #023586;
+    width: 53px; height: 1px;
+}
+header nav .top h1 img {}
+main {}
+main .first {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .first img {
+    margin-top: 13px;
+}
+main .first h2 {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #023586;
+    margin-bottom: 70px;
+}
+main .center {}
+main .center .info {
+    display: flex;
+}
+main .center .info img {
+    padding-left: 16px;
+}
+main .center .info .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 17px;
+}
+main .center .info .text p {
+    background-color: #023586;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+main .center .info .text h3 {
+    line-height: 1.5;
+}
+main .center .info h3 span {
+    font-weight: 700;
+    color: #023586;
+}
+main .center .info_text {
+    font-size: 0.75rem;
+    margin-top: 20px;
+    color: #404040;
+    line-height: 1.5;
+    padding-left: 16px;
+}
+main .center .info_two {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row-reverse;
+}
+main .center .info_two img {
+    padding-right: 16px;
+}
+main .center .info_two .text {
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    justify-content: end;
+    margin-right: 17px;
+}
+main .center .info_two .text p {
+    background-color: #023586;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+main .center .info_two .text h3 {
+    line-height: 1.5;
+}
+main .center .info_two .text span {
+    font-weight: 700;
+    color: #023586;
+}
+main .center .info_text_two {
+    font-size: 0.75rem;
+    margin-top: 20px;
+    color: #404040;
+    line-height: 1.5;
+    text-align: right;
+    padding-right: 16px;
+}
+main .ad_img {
+    margin-top: 50px;
+    position: relative;
+}
+main .ad_img img {
+    z-index: 1;
+}
+main .ad_img .ad {
+    position: absolute;
+    left: 112px; top: 118px;
+    z-index: 5;
+}
+main .turn {
+    margin-top: 50px;
+    padding: 0 16px;
+}
+main .turn .turn_title {
+    display: flex;
+    align-items: center;
+}
+main .turn .turn_title h3 {
+}
+main .turn .turn_title span {
+    font-weight: 700;
+    color: #023586;
+}
+main .turn .turn_title p {
+    font-size: 0.75rem;
+    margin-left: 7px;
+    color: #404040;
+}
+main .turn .turn_icon {
+    margin-top: 50px;
+    text-align: center;
+}
+main .turn .turn_icon .one,
+main .turn .turn_icon .two,
+main .turn .turn_icon .three {
+    display: flex;
+    padding: 15px;
+}
+main .turn .turn_icon .one p,
+main .turn .turn_icon .two p,
+main .turn .turn_icon .three p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 45px;
+    line-height: 1.5;
+}
+main .turn .turn_icon .one p img,
+main .turn .turn_icon .two p img,
+main .turn .turn_icon .three p img {
+    margin: 0 3px;
+}
+main nav .bottom {
+    background-color: #023586;
+    display: flex;
+    justify-content: center;
+    height: 56px;
+}
+main nav .bottom a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+}
+main nav .bottom a:first-child {
+    padding-left: 0;
+}
+main nav .bottom a img {}
+main nav .bottom a span {
+    color: #fff;
+    font-size: 0.75rem;
+}
